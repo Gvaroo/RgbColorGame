@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #00152b;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 40px auto;
+}
+.button-list {
+    border-radius: 8px;
+  overflow: hidden;
+  
+  height: 50px!important;
+ 
+}
+#playGame {
+  background: rgba(0, 105, 217, 0.5);
+  border-color: rgba(0, 105, 217, 0.5);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button-modes {
+    border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: white;
+}
+#easyMode {
+  opacity: 0.4!important;
+  margin-right: 10px!important;
+}
+.game-boxes {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.box {
+  height: 233px;
+  width: 32%;
+  background: steelblue;
+  border-radius: 8px;
+  transition: 1s;
+  margin-bottom: 2%;
+}
+.hearts {
+  float: right;
+  padding-top: 25px;
+  padding-right: 10em;
+}
+.hearts img {
+  width: 30px;
+  margin-left: 5px;
+}
